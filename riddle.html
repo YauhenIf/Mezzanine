@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+ <script type="text/javascript">
+
+ 	var tryCount = 0;
+ 	var answer1 = 'двузначное';
+ 	var answer2 = 'большое';
+ 	var answer3 = 'имя';
+
+ 	var userAnswer1 = prompt('какое число пропущено: 12.22.35.48...55.63 ?');
+ 	var userAnswer2 = prompt('расстояние до одного из спутников юпитера ?');
+ 	var userAnswer3 = prompt('напиши имя');
+
+ 	
+ 	if(userAnswer1 == answer1){
+ 	tryCount++
+ 	}
+ 	if(userAnswer2 == answer2){
+    tryCount++
+ 	}
+    if(userAnswer3 == answer3){
+    tryCount++
+ 	}
+ 	
+ 	alert ('Дано правильных ответов:' + tryCount +'\n Правильные ответы:\n 1 - двузначное \n 2 - большое \n 3 - имя \n Ваши ответы: \n 1 -' + userAnswer1 + '\n 2 -' + userAnswer2 + '\n 3 -' + userAnswer3 );
+ 	
+ 	if (tryCount < 1) {
+ 		alert ('ну шош ты так');
+ 	  }else if ('tryCount < 2') {
+ 		alert ('ну хоть так');
+ 	  }else if ('tryCount < 3') {
+ 		alert('ну почти');
+ 	  }else if('tryCount = 3') {
+ 		alert('молодец')
+ 			}
+ 		 	
+</script>
